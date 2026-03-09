@@ -1,0 +1,55 @@
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.timer-blink {
+  animation: blink 1s infinite;
+  color: red;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.app-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.ql-editor {
+  min-height: 400px;
+}
+
+.main-layout {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.text-section, .timer-section {
+  flex: 1;
+}
+
+.text-section {
+  flex: 2;
+}
+
+.timer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.timer-display {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 20px;
+}
